@@ -1,63 +1,63 @@
 {
   "buildFiles": [
-    "/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk",
-    "/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk"
+    "/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk",
+    "/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk"
   ],
   "cleanCommands": [
-    "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib clean"
+    "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/lib clean"
   ],
-  "buildTargetsCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "kissfftr-debug-x86": {
-      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86/libkissfftr.so",
+      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86/libkissfftr.so",
       "toolchain": "toolchain-x86",
       "abi": "x86",
       "artifactName": "kissfftr",
       "files": [
         {
-          "src": "/home/opener/openspace/euphony/euphony/src/main/jni/kiss_fft.c",
-          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/home/opener/openspace/euphony/euphony/src/main/jni -DANDROID -O2 -Wall -D__ANDROID__ -DFIXED_POINT -Wformat -Werror\u003dformat-security -mstackrealign"
+          "src": "/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/kiss_fft.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni -DANDROID -O2 -Wall -D__ANDROID__ -DFIXED_POINT -Wformat -Werror\u003dformat-security -mstackrealign"
         },
         {
-          "src": "/home/opener/openspace/euphony/euphony/src/main/jni/kiss_fftr.c",
-          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/home/opener/openspace/euphony/euphony/src/main/jni -DANDROID -O2 -Wall -D__ANDROID__ -DFIXED_POINT -Wformat -Werror\u003dformat-security -mstackrealign"
+          "src": "/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/kiss_fftr.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni -DANDROID -O2 -Wall -D__ANDROID__ -DFIXED_POINT -Wformat -Werror\u003dformat-security -mstackrealign"
         }
       ],
-      "output": "/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86/libkissfftr.so"
+      "output": "/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86/libkissfftr.so"
     },
     "kissff-debug-x86": {
-      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86/libkissff.so",
+      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86/libkissff.so",
       "toolchain": "toolchain-x86",
       "abi": "x86",
       "artifactName": "kissff",
       "files": [
         {
-          "src": "/home/opener/openspace/euphony/euphony/src/main/jni/kiss_fft.c",
-          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/home/opener/openspace/euphony/euphony/src/main/jni -DANDROID -O2 -Wall -D__ANDROID__ -DFIXED_POINT -Wformat -Werror\u003dformat-security -mstackrealign"
+          "src": "/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/kiss_fft.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni -DANDROID -O2 -Wall -D__ANDROID__ -DFIXED_POINT -Wformat -Werror\u003dformat-security -mstackrealign"
         }
       ],
-      "output": "/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86/libkissff.so"
+      "output": "/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86/libkissff.so"
     },
     "kissfft-debug-x86": {
-      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86/libkissfft.so",
+      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86/libkissfft.so",
       "toolchain": "toolchain-x86",
       "abi": "x86",
       "artifactName": "kissfft",
       "files": [
         {
-          "src": "/home/opener/openspace/euphony/euphony/src/main/jni/euphony_lib_receiver_KissFFT.cpp",
-          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/home/opener/openspace/euphony/euphony/src/main/jni -DANDROID -O2 -Wall -D__ANDROID__ -DFIXED_POINT -Wformat -Werror\u003dformat-security -mstackrealign"
+          "src": "/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/euphony_lib_receiver_KissFFT.cpp",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni -DANDROID -O2 -Wall -D__ANDROID__ -DFIXED_POINT -Wformat -Werror\u003dformat-security -mstackrealign"
         },
         {
-          "src": "/home/opener/openspace/euphony/euphony/src/main/jni/kiss_fft.c",
-          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/home/opener/openspace/euphony/euphony/src/main/jni -DANDROID -O2 -Wall -D__ANDROID__ -DFIXED_POINT -Wformat -Werror\u003dformat-security -mstackrealign"
+          "src": "/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/kiss_fft.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni -DANDROID -O2 -Wall -D__ANDROID__ -DFIXED_POINT -Wformat -Werror\u003dformat-security -mstackrealign"
         },
         {
-          "src": "/home/opener/openspace/euphony/euphony/src/main/jni/kiss_fftr.c",
-          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/home/opener/openspace/euphony/euphony/src/main/jni -DANDROID -O2 -Wall -D__ANDROID__ -DFIXED_POINT -Wformat -Werror\u003dformat-security -mstackrealign"
+          "src": "/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/kiss_fftr.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni -DANDROID -O2 -Wall -D__ANDROID__ -DFIXED_POINT -Wformat -Werror\u003dformat-security -mstackrealign"
         }
       ],
-      "output": "/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86/libkissfft.so"
+      "output": "/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86/libkissfft.so"
     }
   },
   "toolchains": {

@@ -1,30 +1,33 @@
 {
   "buildFiles": [
-    "/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk",
-    "/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk"
+    "/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk",
+    "/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk"
   ],
   "cleanCommands": [
-    "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib clean"
+    "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/lib clean"
   ],
-  "buildTargetsCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "kissfft-debug-x86_64": {
       "artifactName": "kissfft",
-      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86_64/libkissfft.so",
+      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86_64/libkissfft.so",
       "abi": "x86_64",
-      "output": "/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86_64/libkissfft.so"
+      "output": "/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86_64/libkissfft.so",
+      "runtimeFiles": []
     },
     "kissfftr-debug-x86_64": {
       "artifactName": "kissfftr",
-      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86_64/libkissfftr.so",
+      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86_64/libkissfftr.so",
       "abi": "x86_64",
-      "output": "/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86_64/libkissfftr.so"
+      "output": "/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86_64/libkissfftr.so",
+      "runtimeFiles": []
     },
     "kissff-debug-x86_64": {
       "artifactName": "kissff",
-      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86_64/libkissff.so",
+      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86_64/libkissff.so",
       "abi": "x86_64",
-      "output": "/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86_64/libkissff.so"
+      "output": "/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/x86_64/libkissff.so",
+      "runtimeFiles": []
     }
   }
 }

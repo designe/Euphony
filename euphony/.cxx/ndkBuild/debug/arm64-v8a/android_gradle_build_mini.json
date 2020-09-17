@@ -1,30 +1,33 @@
 {
   "buildFiles": [
-    "/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk",
-    "/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk"
+    "/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk",
+    "/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk"
   ],
   "cleanCommands": [
-    "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib clean"
+    "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/lib clean"
   ],
-  "buildTargetsCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "kissff-debug-arm64-v8a": {
       "artifactName": "kissff",
-      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libkissff.so",
+      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libkissff.so",
       "abi": "arm64-v8a",
-      "output": "/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libkissff.so"
+      "output": "/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libkissff.so",
+      "runtimeFiles": []
     },
     "kissfft-debug-arm64-v8a": {
       "artifactName": "kissfft",
-      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libkissfft.so",
+      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libkissfft.so",
       "abi": "arm64-v8a",
-      "output": "/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libkissfft.so"
+      "output": "/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libkissfft.so",
+      "runtimeFiles": []
     },
     "kissfftr-debug-arm64-v8a": {
       "artifactName": "kissfftr",
-      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libkissfftr.so",
+      "buildCommand": "/home/opener/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/lib /home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libkissfftr.so",
       "abi": "arm64-v8a",
-      "output": "/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libkissfftr.so"
+      "output": "/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libkissfftr.so",
+      "runtimeFiles": []
     }
   }
 }

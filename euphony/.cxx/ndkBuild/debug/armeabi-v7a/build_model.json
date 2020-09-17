@@ -1,60 +1,128 @@
 {
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cxxBuildFolder": "/home/opener/openspace/euphony-legacy/euphony/euphony/.cxx/ndkBuild/debug/armeabi-v7a",
+  "info": {
+    "abi": "ARMEABI_V7A",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "/home/opener/openspace/euphony-legacy/euphony/euphony/.cxx/ndkBuild/debug/armeabi-v7a",
   "variant": {
+    "buildSystemArgumentList": [],
+    "buildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": true,
     "module": {
-      "rootBuildGradleFolder": "/home/opener/openspace/euphony-listener",
-      "sdkFolder": "/home/opener/Android/Sdk",
-      "isNativeCompilerSettingsCacheEnabled": false,
-      "isBuildOnlyTargetAbiEnabled": true,
-      "splitsAbiFilterSet": [],
-      "intermediatesFolder": "/home/opener/openspace/euphony/euphony/build/intermediates",
-      "gradleModulePathName": ":euphony",
-      "moduleRootFolder": "/home/opener/openspace/euphony/euphony",
-      "makeFile": "/home/opener/openspace/euphony/euphony/src/main/jni/Android.mk",
       "buildSystem": "NDK_BUILD",
-      "compilerSettingsCacheFolder": "/home/opener/openspace/euphony-listener/.cxx",
-      "cxxFolder": "/home/opener/openspace/euphony/euphony/.cxx",
-      "ndkFolder": "/home/opener/Android/Sdk/ndk/21.0.6113669",
-      "ndkVersion": "21.0.6113669",
-      "ndkSupportedAbiList": [
-        "ARMEABI_V7A",
-        "ARM64_V8A",
-        "X86",
-        "X86_64"
-      ],
+      "cmakeToolchainFile": "/home/opener/Android/Sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+      "cxxFolder": "/home/opener/openspace/euphony-legacy/euphony/euphony/.cxx",
+      "gradleModulePathName": ":euphony",
+      "intermediatesFolder": "/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates",
+      "makeFile": "/home/opener/openspace/euphony-legacy/euphony/euphony/src/main/jni/Android.mk",
+      "moduleBuildFile": "/home/opener/openspace/euphony-legacy/euphony/euphony/build.gradle",
+      "moduleRootFolder": "/home/opener/openspace/euphony-legacy/euphony/euphony",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
         "X86",
         "X86_64"
       ],
-      "cmakeToolchainFile": "."
+      "ndkFolder": "/home/opener/Android/Sdk/ndk/21.0.6113669",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 29,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "SYSTEM",
+      "ndkVersion": "21.0.6113669",
+      "project": {
+        "compilerSettingsCacheFolder": "/home/opener/openspace/euphony-legacy/euphony-listener/.cxx",
+        "cxxFolder": "/home/opener/openspace/euphony-legacy/euphony-listener/.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "/home/opener/openspace/euphony-legacy/euphony-listener",
+        "sdkFolder": "/home/opener/Android/Sdk",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/home/opener/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
     },
-    "buildSystemArgumentList": [],
-    "cFlagList": [],
-    "cppFlagsList": [],
+    "objFolder": "/home/opener/openspace/euphony-legacy/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local",
     "variantName": "debug",
-    "soFolder": "/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/lib",
-    "objFolder": "/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local",
-    "jsonFolder": "/home/opener/openspace/euphony/euphony/.cxx/ndkBuild/debug",
-    "gradleBuildOutputFolder": "/home/opener/openspace/euphony/euphony/.cxx/cxx/debug",
-    "isDebuggableEnabled": true,
     "validAbiList": [
       "ARMEABI_V7A",
       "ARM64_V8A",
       "X86",
       "X86_64"
     ],
-    "buildTargetSet": []
+    "prefabDirectory": "/home/opener/openspace/euphony-legacy/euphony/euphony/.cxx/ndkBuild/debug/prefab",
+    "prefabPackageDirectoryList": []
   },
-  "abi": "ARMEABI_V7A",
-  "abiPlatformVersion": 16,
-  "cxxBuildFolder": "/home/opener/openspace/euphony/euphony/.cxx/ndkBuild/debug/armeabi-v7a",
-  "jsonFile": "/home/opener/openspace/euphony/euphony/.cxx/ndkBuild/debug/armeabi-v7a/android_gradle_build.json",
-  "gradleBuildOutputFolder": "/home/opener/openspace/euphony/euphony/.cxx/cxx/debug/armeabi-v7a",
-  "objFolder": "/home/opener/openspace/euphony/euphony/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a",
-  "buildCommandFile": "/home/opener/openspace/euphony/euphony/.cxx/ndkBuild/debug/armeabi-v7a/build_command.txt",
-  "buildOutputFile": "/home/opener/openspace/euphony/euphony/.cxx/ndkBuild/debug/armeabi-v7a/build_output.txt",
-  "modelOutputFile": "/home/opener/openspace/euphony/euphony/.cxx/ndkBuild/debug/armeabi-v7a/build_model.json",
-  "jsonGenerationLoggingRecordFile": "/home/opener/openspace/euphony/euphony/.cxx/ndkBuild/debug/armeabi-v7a/json_generation_record.json",
-  "compileCommandsJsonFile": "/home/opener/openspace/euphony/euphony/.cxx/ndkBuild/debug/armeabi-v7a/compile_commands.json"
+  "prefabFolder": "/home/opener/openspace/euphony-legacy/euphony/euphony/.cxx/ndkBuild/debug/prefab/armeabi-v7a"
 }
